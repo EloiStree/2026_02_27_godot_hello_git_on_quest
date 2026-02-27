@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://cag5pqsk360q"]
 
 [ext_resource type="Script" uid="uid://c1g0ils3kaivb" path="res://_/script/node_start_xr.gd" id="1_3a5dn"]
+[ext_resource type="PackedScene" uid="uid://bbwn03yllootl" path="res://addons/2026_01_18_gdp_nes_controller_udp/scene/element/facade/facade_nes_to_udp.tscn" id="2_du3bt"]
+[ext_resource type="Script" uid="uid://clbr8m02ptfm" path="res://_/hello_xbox_with_facade.gd" id="3_q68sh"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_j2gb7"]
 
@@ -31,3 +33,10 @@ mesh = SubResource("BoxMesh_j2gb7")
 
 [node name="NodeStartXR" type="Node" parent="." unique_id=167939843]
 script = ExtResource("1_3a5dn")
+
+[node name="FacadeNesToUdp" parent="." unique_id=574021232 instance=ExtResource("2_du3bt")]
+
+[node name="NodeHelloXbox" type="Node" parent="." unique_id=2035336066 node_paths=PackedStringArray("xbox")]
+script = ExtResource("3_q68sh")
+xbox = NodePath("../FacadeNesToUdp")
+ipv4 = "192.168.178.179"
