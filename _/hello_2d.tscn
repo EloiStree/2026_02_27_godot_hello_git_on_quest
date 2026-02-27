@@ -8,7 +8,7 @@
 mesh = SubResource("BoxMesh_j2gb7")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=637503328]
-transform = Transform3D(1, 0, 0, 0, 0.8936927, -0.4486796, 0, 0.4486796, 0.8936927, 0, 0.5823575, -1.0359453)
+transform = Transform3D(1, 0, 0, 0, 0.8936927, -0.4486796, 0, 0.4486796, 0.8936927, -1.0301116, 0.5823575, -1.0359453)
 mesh = SubResource("BoxMesh_j2gb7")
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=225024972]
