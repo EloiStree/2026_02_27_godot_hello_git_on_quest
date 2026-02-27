@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://cag5pqsk360q"]
+
+[ext_resource type="Script" uid="uid://c1g0ils3kaivb" path="res://_/script/node_start_xr.gd" id="1_3a5dn"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_j2gb7"]
+
+[node name="Hello2d" type="Node3D" unique_id=1504018835]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1996311693]
+mesh = SubResource("BoxMesh_j2gb7")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=473295128]
+
+[node name="XROrigin3D" type="XROrigin3D" parent="." unique_id=247055452]
+
+[node name="XRCamera3D" type="XRCamera3D" parent="XROrigin3D" unique_id=1709102225]
+
+[node name="XRController3DLeft" type="XRController3D" parent="XROrigin3D" unique_id=1790026705]
+tracker = &"left_hand"
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="XROrigin3D/XRController3DLeft" unique_id=637503328]
+transform = Transform3D(0.03, 0, 0, 0, 0.03, 0, 0, 0, 0.03, 0, 0, 0)
+mesh = SubResource("BoxMesh_j2gb7")
+
+[node name="XRController3DRight" type="XRController3D" parent="XROrigin3D" unique_id=1698553957]
+tracker = &"right_hand"
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="XROrigin3D/XRController3DRight" unique_id=806649493]
+transform = Transform3D(0.03, 0, 0, 0, 0.03, 0, 0, 0, 0.03, 0, 0, 0)
+mesh = SubResource("BoxMesh_j2gb7")
+
+[node name="NodeStartXR" type="Node" parent="." unique_id=167939843]
+script = ExtResource("1_3a5dn")
