@@ -49,14 +49,10 @@ Termux:
 - https://github.com/termux/termux-app
 
 
-```
-pkg up -y
-pkg install git -y
-```
-
-
+Source:
 https://youtu.be/AArO0EpHpCs?t=57
 
+```
 cd./storage/music/
 pkg up -y
 pkg install git -y
@@ -70,5 +66,7 @@ git config --global --add safe.directory .
 git config --global user.name "Anoymus"
 git config --global user.mail "anonymous@gmail.com"
 
+// IF you git is detach of the head
 git switch main
-git checkout main
+
+```
