@@ -3,7 +3,12 @@ To Do:
 - [ ] A video with git clone and an empty godot project
 - [ ] A video with git clone of an addons for the artiste to see 3D mesh in XR
 
+- Git Termux Godot et Android sur Tablette: 
+  - https://youtu.be/eNjfkL6R6ZQ
+- Git Termux Godot et Android pour le portfolio des artistes sur Quest3
+  -  https://youtu.be/k4nxGuHmllo&t=3807s
 
+  
 ---------------
 
 
