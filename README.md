@@ -1,8 +1,13 @@
 # 2026_02_27_godot_hello_git_on_quest
 Information on how to use git on quest 3 with godot
 
+On Android or Quest3
 ```
 cd ~/storage/music/
+```
+
+Git clone with the in submodules used.
+```
 git clone --recursive https://github.com/EloiStree/2026_02_27_godot_hello_git_on_quest.git
 ```
 
