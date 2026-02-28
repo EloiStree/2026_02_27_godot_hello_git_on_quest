@@ -1,6 +1,7 @@
 # 2026_02_27_godot_hello_git_on_quest
 
 > The only goal of this repository is to teach how to install git and use submodule to work with Godot on android and Quest 3
+> It is not to teach XR or Godot. Just how to install git and be ready for other workshop and guide.
 
 
 
