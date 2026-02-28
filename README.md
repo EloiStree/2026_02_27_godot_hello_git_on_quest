@@ -11,5 +11,5 @@ Git clone with the in submodules used.
 git clone --recursive https://github.com/EloiStree/2026_02_27_godot_hello_git_on_quest.git
 ```
 
-
+Goat application to work in Godot on Android:  
 <img width="1605" height="936" alt="image" src="https://github.com/user-attachments/assets/6c1fb4f2-44df-4992-ba90-a77290a07d48" />
